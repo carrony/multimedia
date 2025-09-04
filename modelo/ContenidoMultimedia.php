@@ -7,7 +7,7 @@
         protected $segundos;
         protected $valoracion;
 
-        public function __construct($titulo, $descripcion, $minutos, $segundos, $valoracion)
+        public function __construct($titulo, $descripcion, $minutos, $segundos, $valoracion=3)
         {
             $this->titulo=$titulo;
             $this->descripcion=$descripcion;
